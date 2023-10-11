@@ -20,9 +20,9 @@ public class activity_login extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Initialize UI components
-        usernameEditText = findViewById(R.id.usernameEditText);
-        passwordEditText = findViewById(R.id.passwordEditText);
-        loginButton = findViewById(R.id.loginButton);
+        //usernameEditText = findViewById(R.id.usernameEditText);
+        //passwordEditText = findViewById(R.id.passwordEditText);       EDITAR
+        //loginButton = findViewById(R.id.loginButton);
 
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
